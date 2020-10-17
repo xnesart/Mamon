@@ -610,26 +610,17 @@ html{
 }
 .footer-logo-link {
     margin-top: 20px;
-    /* margin-bottom: 20px; */
-}
-.footer-logo-thumb {
-    width: 60px;
-    height: 60px;
 }
 .footer-nav-list {
     display: grid;
-    /* flex-basis: 25px; */
     grid-template-columns: repeat(4  , 1fr);
     gap: 20px;
     text-align: center;
 }
 .footer-nav-item {
-    
-    /* margin-left: 40px; */
+    min-height: 30px;
+    display: flex;
+    align-items: center;
 }
-.footer-nav-link {
-    flex-basis: 30px;
-}
-
 
 /* FOOTER END */
